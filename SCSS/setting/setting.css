@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main.wrapper {
+  width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: RalewayRegular;
+  src: url(../../Font/Raleway/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: RalewayBold;
+  src: url(../../Font/Raleway/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: RalewayThin;
+  src: url(../../Font/Raleway/Raleway-Thin.ttf);
+}
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(../../Font/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: PoppinsBold;
+  src: url(../../Font/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: PoppinsThin;
+  src: url(../../Font/Poppins/Poppins-Thin.ttf);
+}/*# sourceMappingURL=setting.css.map */
