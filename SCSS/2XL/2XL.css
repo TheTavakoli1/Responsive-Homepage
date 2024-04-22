@@ -46,4 +46,44 @@
   font-size: 18px;
   font-weight: 700;
   border: unset;
+}
+.wrapper .header .bottomheader {
+  width: 100%;
+  height: 582px;
+  background-color: #8a9;
+  margin-top: 85px;
+}
+.wrapper .header .bottomheader .left {
+  width: 36.5%;
+  height: auto;
+  background-color: thistle;
+}
+.wrapper .header .bottomheader .left h2 {
+  font-family: RalewayBold;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 62.5px;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+.wrapper .header .bottomheader .left p {
+  font-family: PoppinsRegular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #fff;
+}
+.wrapper .header .bottomheader .left button {
+  width: 40%;
+  height: 59px;
+  padding: 16px 32px;
+  border-radius: 24px;
+  color: #fff;
+  font-family: PoppinsBold;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #da722c;
+  vertical-align: middle;
+  border: unset;
+  margin-top: 30px;
 }/*# sourceMappingURL=2XL.css.map */
