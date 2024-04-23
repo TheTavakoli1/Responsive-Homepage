@@ -35,6 +35,10 @@
   font-weight: 700;
   color: #fff;
 }
+.wrapper .header .topheader .right div:hover {
+  -webkit-text-decoration: 3px solid blue underline;
+          text-decoration: 3px solid blue underline;
+}
 .wrapper .header .topheader .right button {
   width: 29%;
   height: inherit;

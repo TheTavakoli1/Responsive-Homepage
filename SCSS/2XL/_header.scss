@@ -37,6 +37,9 @@
         font-size: 16px;
         font-weight: 700;
         color: #fff;
+      &:hover{
+        text-decoration: 3px solid blue underline ;
+      }
       }
 
       // Button
