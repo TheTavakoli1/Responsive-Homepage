@@ -1,21 +1,18 @@
 .wrapper .parent_student {
   width: 100%;
   height: 746px;
-  background-color: thistle;
   padding: 100px 115px 100px 116px;
   .student {
     width: 100%;
     height: 546px;
-    background-color: tan;
     display: flex;
     justify-content: space-between;
     align-items: center;
     .left {
       width: 37%;
       height: inherit;
-      background-color: teal;
       display: flex;
-      position: absolute;
+      position: relative;
       .vertical_line {
         width: 6%;
         height: inherit;
@@ -31,6 +28,7 @@
         left: 0;
         top: 35px;
         border-radius: 24px;
+        box-shadow: 0px 9px 36px 0px #00000033;
         .top {
           width: 100%;
           height: 102px;
@@ -86,10 +84,11 @@
         right: 0;
         bottom: 44px;
         border-radius: 24px;
+        box-shadow: 0px 9px 36px 0px #00000033;
         .top {
           width: 100%;
           height: 75px;
-          background-color: #DA722C;
+          background-color: #da722c;
           border-radius: 24px;
           padding: 24px 32px 24px 32px;
           p {
@@ -134,10 +133,37 @@
         }
       }
     }
-  }
-  .right {
-    width: 37%;
-    height: 377px;
-    background-color: tomato;
+    .right {
+      width: 43.7%;
+      height: 377px;
+      h2 {
+        font-family: RalewayBold;
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 72px;
+        text-align: left;
+      }
+      p {
+        font-family: PoppinsRegular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        margin-top: 16px;
+      }
+      button {
+        width: 30%;
+        height: 59px;
+        background-color: #da722c;
+        border-radius: 24px;
+        padding: 16px 32px;
+        margin-top: 30px;
+        border: unset;
+        color: #fff;
+        font-family: PoppinsBold;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+      }
+    }
   }
 }
