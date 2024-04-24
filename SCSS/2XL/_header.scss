@@ -10,7 +10,7 @@
     height: 59px;
     display: flex;
     justify-content: space-between;
-    direction: rtl;
+    
 
     // Left
     .left {
@@ -28,7 +28,6 @@
     .right {
       width: 43%;
       height: 59px;
-      direction: ltr;
       display: flex;
       justify-content: space-between;
       align-items: center;
