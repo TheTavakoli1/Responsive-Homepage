@@ -33,11 +33,7 @@
   font-weight: 700;
   color: #fff;
 }
-.wrapper .header .topheader .right div:hover {
-  -webkit-text-decoration: 3px solid blue underline;
-          text-decoration: 3px solid blue underline;
-}
-.wrapper .header .topheader .right button {
+.wrapper .header .topheader button {
   width: 29%;
   height: inherit;
   padding: 16px, 32px, 16px, 32px;
@@ -49,20 +45,21 @@
   font-weight: 700;
   border: unset;
 }
-.wrapper .header .bottomheader {
+
+.bottomheader {
   width: 100%;
   height: 582px;
   margin-top: 85px;
   display: flex;
   justify-content: space-between;
 }
-.wrapper .header .bottomheader .left {
+.bottomheader .left {
   width: 36.5%;
   height: inherit;
   display: flex;
   flex-flow: column wrap;
 }
-.wrapper .header .bottomheader .left h2 {
+.bottomheader .left h2 {
   font-family: RalewayBold;
   font-size: 50px;
   font-weight: 900;
@@ -70,7 +67,7 @@
   color: #ffffff;
   margin-top: 33px;
 }
-.wrapper .header .bottomheader .left p {
+.bottomheader .left p {
   font-family: PoppinsRegular;
   font-size: 16px;
   font-weight: 400;
@@ -78,7 +75,7 @@
   color: #fff;
   margin-top: 18px;
 }
-.wrapper .header .bottomheader .left button {
+.bottomheader .left button {
   width: 40%;
   height: 59px;
   padding: 16px 32px;
@@ -96,13 +93,13 @@
   justify-content: center;
   gap: 8px;
 }
-.wrapper .header .bottomheader .center {
+.bottomheader .center {
   width: 18%;
   height: inherit;
   text-align: center;
   margin-left: 24px;
 }
-.wrapper .header .bottomheader .center .top {
+.bottomheader .center .top {
   width: 100%;
   height: 98px;
   background-color: #fff;
@@ -111,7 +108,7 @@
   text-align: center;
   margin-top: 137px;
 }
-.wrapper .header .bottomheader .center .top h2 {
+.bottomheader .center .top h2 {
   font-family: PoppinsBold;
   font-size: 36px;
   font-weight: 700;
@@ -120,14 +117,14 @@
   display: inline-block;
   margin-top: 8px;
 }
-.wrapper .header .bottomheader .center .top p {
+.bottomheader .center .top p {
   font-family: PoppinsRegular;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   color: #023047;
 }
-.wrapper .header .bottomheader .center .bottom {
+.bottomheader .center .bottom {
   width: 88.2%;
   height: 98px;
   background-color: #fff;
@@ -137,7 +134,7 @@
   margin-top: 141px;
   display: inline-block;
 }
-.wrapper .header .bottomheader .center .bottom h2 {
+.bottomheader .center .bottom h2 {
   font-family: Poppins;
   font-size: 36px;
   font-weight: 700;
@@ -147,23 +144,23 @@
   display: inline-block;
   margin-top: 8px;
 }
-.wrapper .header .bottomheader .center .bottom img {
+.bottomheader .center .bottom img {
   vertical-align: middle;
   margin-bottom: 18px;
 }
-.wrapper .header .bottomheader .center .bottom p {
+.bottomheader .center .bottom p {
   font-family: PoppinsRegular;
   font-size: 16px;
   font-weight: 400;
   margin-top: -12px;
   color: #023047;
 }
-.wrapper .header .bottomheader .right {
+.bottomheader .right {
   width: 29.5%;
   height: inherit;
   margin-left: 61px;
 }
-.wrapper .header .bottomheader .right img {
+.bottomheader .right img {
   width: 100%;
   height: inherit;
   -o-object-fit: cover;
@@ -340,4 +337,122 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;
+}
+
+.parent_courses {
+  width: 100%;
+  height: 785px;
+  background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+  padding: 70px 115px 70px 116px;
+}
+.parent_courses .courses {
+  width: 100%;
+  height: 645px;
+  position: relative;
+}
+.parent_courses .courses .top_text {
+  width: 41%;
+  height: 72px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 72px;
+}
+.parent_courses .courses .top_text h2 {
+  font-family: RalewayBold;
+  font-size: 60px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.parent_courses .courses .course {
+  width: 100%;
+  height: 418px;
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+.parent_courses .courses .course .left {
+  width: 41%;
+  height: inherit;
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 0 32px 0 32px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.parent_courses .courses .course .left img {
+  width: 100%;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.parent_courses .courses .course .left .text {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.parent_courses .courses .course .left .text p {
+  font-family: RalewayBold;
+  font-size: 30px;
+  font-weight: 900;
+  color: #023047;
+}
+.parent_courses .courses .course .left .text img {
+  width: 15.5%;
+  height: 24px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 33px;
+}
+.parent_courses .courses .course .right {
+  width: 41%;
+  height: inherit;
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 0 32px 0 32px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.parent_courses .courses .course .right img {
+  width: 100%;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.parent_courses .courses .course .right .text {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.parent_courses .courses .course .right .text p {
+  font-family: RalewayBold;
+  font-size: 30px;
+  font-weight: 900;
+  color: #023047;
+  line-height: 45px;
+}
+.parent_courses .courses .course .right .text img {
+  width: 15.5%;
+  height: 24px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 33px;
+}
+.parent_courses .courses button {
+  width: 13.2%;
+  height: 59px;
+  background-color: #da722c;
+  padding: 16px, 32px, 16px, 32px;
+  border: unset;
+  border-radius: 24px;
+  font-family: PoppinsBold;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }/*# sourceMappingURL=2XL.css.map */
