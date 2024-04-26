@@ -1,20 +1,20 @@
 .wrapper .header {
   width: 100%;
-  height: 768px;
+  height: 1194px;
   background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
-  padding: 42px 116px 0 116px;
+  padding: 60px 60px 0 60px;
 
   // top header
   .topheader {
     width: 100%;
-    height: 59px;
+    height: 48px;
     display: flex;
     justify-content: space-between;
 
     // Left Logo
     .left {
-      width: 4.5%;
-      height: 59px;
+      width: 10%;
+      height: inherit;
       color: #ffffff;
       font-family: RalewayBold;
       font-size: 40px;
@@ -25,8 +25,8 @@
 
     // Right
     .right {
-      width: 43%;
-      height: 59px;
+      width: 66%;
+      height: inherit;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -55,17 +55,16 @@
 }
 
 .bottomheader {
-  width: 100%;
-  height: 582px;
-  margin-top: 85px;
+  width: 834px;
+  height: auto ;
   display: flex;
-  justify-content: space-between;
+  flex-flow: row wrap;
+  margin-top: 85px;
 
   .left {
-    width: 36.5%;
-    height: inherit;
-    display: flex;
-    flex-flow: column wrap;
+    width: 76.1%;
+    height: auto;
+    padding: 0 100px 0 100px;
 
     h2 {
       font-family: RalewayBold;
@@ -103,12 +102,14 @@
       justify-content: center;
       gap: 8px;
     }
+
   }
   .center {
-    width: 18%;
+    width: 24%;
     height: inherit;
     text-align: center;
-    margin-left: 24px;
+    margin-right: 14px;
+
     .top {
       width: 100%;
       height: 98px;
@@ -117,6 +118,7 @@
       box-shadow: 0 4px 4px 0 #00000040;
       text-align: center;
       margin-top: 137px;
+
       h2 {
         font-family: PoppinsBold;
         font-size: 36px;
@@ -126,6 +128,7 @@
         display: inline-block;
         margin-top: 8px;
       }
+
       p {
         font-family: PoppinsRegular;
         font-size: 16px;
@@ -167,7 +170,7 @@
     }
   }
   .right {
-    width: 30%;
+    width: 60%;
     height: inherit;
     margin-left: 61px;
     img {
