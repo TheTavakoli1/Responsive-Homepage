@@ -1,28 +1,29 @@
 .wrapper .parent_student {
   width: 100%;
-  height: 746px;
-  padding: 100px 115px 100px 116px;
+  height: 960px;
+  padding: 100px 100px;
+  position: relative;
   .student {
     width: 100%;
-    height: 546px;
+    height: 760px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-flow: row wrap;
     .left {
-      width: 37%;
-      height: inherit;
-      display: flex;
+      width: 100%;
+      height: 500px;
       position: relative;
+      display: flex;
+      order: 2;
       .vertical_line {
-        width: 6%;
+        width: 4.4%;
         height: inherit;
         background-color: #023047;
         border-radius: 24px;
         margin-left: 87px;
       }
       .card1 {
-        width: 93%;
-        height: 222px;
+        width: 100%;
+        height: 195px;
         background-color: #fff;
         position: absolute;
         left: 0;
@@ -31,7 +32,7 @@
         box-shadow: 0px 9px 36px 0px #00000033;
         .top {
           width: 100%;
-          height: 102px;
+          height: 75px;
           background-color: #6f7dfb;
           border-radius: 24px;
           padding: 24px 32px 24px 32px;
@@ -77,11 +78,10 @@
         }
       }
       .card2 {
-        width: 93%;
+        width: 100%;
         height: 195px;
         background-color: #fff;
         position: absolute;
-        right: 0;
         bottom: 44px;
         border-radius: 24px;
         box-shadow: 0px 9px 36px 0px #00000033;
@@ -125,7 +125,7 @@
             }
           }
           img {
-            width: 27%;
+            width: 120px;
             height: auto;
             object-fit: cover;
             margin-bottom: 32px;
@@ -134,25 +134,27 @@
       }
     }
     .right {
-      width: 43.7%;
-      height: 377px;
+      order: 1;
+
       h2 {
+        width: 100%;
+        height: 48px;
         font-family: RalewayBold;
-        font-size: 60px;
+        font-size: 40px;
         font-weight: 900;
-        line-height: 72px;
-        text-align: left;
       }
       p {
+        width: 100%;
+        height: 48px;
         font-family: PoppinsRegular;
         font-size: 16px;
         font-weight: 400;
-        line-height: 32px;
-        margin-top: 16px;
+        margin-top: 20px;
+        text-align: justify;
       }
       button {
-        width: 30%;
-        height: 59px;
+        width: 18.5%;
+        height: 48px;
         background-color: #da722c;
         border-radius: 24px;
         padding: 16px 32px;
@@ -160,9 +162,12 @@
         border: unset;
         color: #fff;
         font-family: PoppinsBold;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 700;
-        line-height: 27px;
+        line-height: 16px;
+        position: absolute;
+        bottom: 95px;
+        right: 100px;
       }
     }
   }
