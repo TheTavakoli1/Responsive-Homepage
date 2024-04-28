@@ -1,176 +1,166 @@
 .wrapper .header {
   width: 100%;
-  height: 1194px;
+  height: 896px;
   background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
-  padding: 60px 60px 0 60px;
+  padding: 60px 32px 0 32px;
+  position: relative;
 }
 .wrapper .header .topheader {
   width: 100%;
-  height: 48px;
+  height: 42px;
   display: flex;
   justify-content: space-between;
 }
 .wrapper .header .topheader .left {
   width: 10%;
-  height: inherit;
-  color: #ffffff;
-  font-family: RalewayBold;
+  height: 48px;
+  font-family: Raleway-Bold;
   font-size: 40px;
   font-weight: 900;
   line-height: 59px;
-  text-transform: uppercase;
+  color: #ffffff;
 }
 .wrapper .header .topheader .right {
   width: 66%;
-  height: inherit;
+  height: 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .wrapper .header .topheader .right div {
-  font-family: PoppinsBold;
+  font-family: Poppins-Bold;
   font-size: 16px;
   font-weight: 700;
-  color: #fff;
+  color: #ffffff;
 }
-.wrapper .header .topheader button {
+.wrapper .header .topheader .right button {
   width: 29%;
   height: inherit;
   padding: 16px, 32px, 16px, 32px;
   background: #023047;
   border-radius: 24px;
   color: #fff;
-  font-size: poppinsBold;
+  font-family: Poppins-Bold;
   font-size: 18px;
   font-weight: 700;
   border: unset;
 }
-
-.bottomheader {
+.wrapper .header .bottomheader {
   width: 100%;
   height: auto;
-  margin-top: 155px;
+  margin-top: 58px;
 }
-.bottomheader .left h2 {
-  width: 88.1%;
-  height: 126px;
-  padding: 0 100px;
-  font-family: RalewayBold;
-  font-size: 49px;
-  font-weight: 900;
-  line-height: 62.5px;
-  color: #ffffff;
-  margin-top: 33px;
-}
-.bottomheader .left p {
+.wrapper .header .bottomheader .left h2 {
   width: 100%;
-  height: 126px;
-  padding: 0 100px;
-  font-family: PoppinsRegular;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 32px;
-  color: #fff;
-  margin-top: 18px;
-}
-.bottomheader .left button {
-  width: 23%;
-  height: 48px;
-  margin: 0 100px;
-  padding: 16px 32px;
-  border-radius: 24px;
-  color: #fff;
-  font-family: PoppinsBold;
-  font-size: 14px;
-  font-weight: 700;
-  background-color: #da722c;
-  vertical-align: middle;
-  border: unset;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-}
-.bottomheader .center {
-  width: 29.6%;
-  height: auto;
-  display: inline-block;
-  position: relative;
-  margin-left: 138px;
-  text-align: center;
-}
-.bottomheader .center .top {
-  width: 100%;
-  height: 98px;
-  background-color: #fff;
-  border-radius: 24px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2509803922);
-  text-align: center;
-  margin-top: 184px;
-}
-.bottomheader .center .top h2 {
-  font-family: PoppinsBold;
+  height: 90px;
+  font-family: Raleway-Bold;
   font-size: 36px;
-  font-weight: 700;
-  line-height: 45px;
-  color: #023047;
-  display: inline-block;
-  margin-top: 8px;
+  font-weight: 900;
+  color: #ffffff;
 }
-.bottomheader .center .top p {
-  font-family: PoppinsRegular;
+.wrapper .header .bottomheader .left p {
+  width: 100%;
+  height: 128px;
+  font-family: Poppins-Regular;
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
-  color: #023047;
+  color: #ffffff;
+  line-height: 32px;
+  margin-top: 16px;
 }
-.bottomheader .center .bottom {
-  width: 88.3%;
-  height: 98px;
-  background-color: #fff;
+.wrapper .header .bottomheader .left button {
+  width: 49%;
+  height: 48px;
+  background-color: #da722c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 16px 32px 16px 32px;
+  margin-top: 34px;
+  border-radius: 24px;
+  font-family: Poppins-Bold;
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  border: unset;
+}
+.wrapper .header .bottomheader .center {
+  width: 54%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+.wrapper .header .bottomheader .center .top {
+  width: 100%;
+  height: 84px;
+  background-color: #ffffff;
+  margin-top: 146px;
   border-radius: 24px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2509803922);
   text-align: center;
-  margin-top: 118px;
+}
+.wrapper .header .bottomheader .center .top h2 {
+  font-family: Poppins-Bold;
+  font-size: 30px;
+  font-weight: 700;
+  color: #023047;
+  line-height: 45px;
+  margin-top: 8px;
+  display: inline-block;
+}
+.wrapper .header .bottomheader .center .top p {
+  font-family: Poppins-Regular-;
+  font-size: 14px;
+  font-weight: 400;
+  color: #023047;
+}
+.wrapper .header .bottomheader .center .bottom {
+  width: 90%;
+  height: 80px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2509803922);
+  margin-top: 54px;
   position: absolute;
   left: 0;
 }
-.bottomheader .center .bottom h2 {
-  font-family: Poppins;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: px;
-  text-align: left;
-  color: #023047;
+.wrapper .header .bottomheader .center .bottom h2 {
   display: inline-block;
   margin-top: 8px;
+  font-family: Poppins-Bold;
+  font-size: 30px;
+  font-weight: 700;
+  color: #023047;
 }
-.bottomheader .center .bottom img {
+.wrapper .header .bottomheader .center .bottom img {
+  width: 35px;
+  height: 35px;
   vertical-align: middle;
   margin-bottom: 18px;
 }
-.bottomheader .center .bottom p {
-  font-family: PoppinsRegular;
-  font-size: 16px;
+.wrapper .header .bottomheader .center .bottom p {
+  font-family: Poppins-Regular;
+  font-size: 14px;
   font-weight: 400;
   margin-top: -12px;
   color: #023047;
 }
-.bottomheader .right {
-  width: 50%;
-  height: 647px;
+.wrapper .header .bottomheader .right {
+  width: 60%;
+  height: 399px;
   display: inline-block;
+  background-image: url(../../Pictures/hero-image\ 1.jpg) !important;
+  background-size: contain;
   position: absolute;
+  z-index: 10;
+  bottom: 0;
+  right: 1px;
 }
-.bottomheader .right img {
-  width: 423px;
-  height: inherit;
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: absolute;
-  right: -10px;
-  top: -34px;
-  margin-bottom: 70px;
+.wrapper .header .bottomheader .right img {
+  display: none;
+  z-index: 0;
 }
 
 .wrapper .parent_student {
@@ -712,4 +702,4 @@
   line-height: 32px;
   text-align: left;
   color: #fff;
-}/*# sourceMappingURL=MD.css.map */
+}/*# sourceMappingURL=XS.css.map */
