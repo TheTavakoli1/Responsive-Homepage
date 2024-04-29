@@ -1,23 +1,24 @@
 .wrapper .parent_footer {
   width: 100%;
-  height: 638px;
+  height: 883px;
   background-color: #070917;
-  padding: 70px 189px 70px 100px;
   .footer {
     width: 100%;
-    height: 498px;
+    height: 753px;
     display: flex;
     flex-flow: row wrap;
     position: relative;
     .left {
-      width: 33%;
+      width: 100%;
       height: 205px;
+      padding: 60px 129px 40px 129px;
       p {
         font-family: PoppinsBold;
         font-size: 18px;
         font-weight: 700;
         color: #da722c;
         margin-bottom: 8px;
+        text-align: center;
       }
       a {
         display: block;
@@ -27,19 +28,20 @@
         color: #fff;
         text-decoration: none;
         line-height: 32px;
-        margin-left: 24px;
+        text-align: center;
       }
     }
     .center {
-      width: 20.5%;
-      height: 187px;
-      margin-left: 132px;
+      width: 100%;
+      height: 164px;
+      padding: 0 162px 0 163px;
       p {
         font-family: PoppinsBold;
         font-size: 18px;
         font-weight: 700;
         color: #da722c;
         margin-bottom: 8px;
+        text-align: center;
       }
       a {
         display: block;
@@ -49,19 +51,22 @@
         color: #fff;
         text-decoration: none;
         line-height: 32px;
-        margin-left: 24px;
+        text-align: center;
       }
     }
     .right {
       width: 100%;
-      height: 187px;
-      margin-top: 45px;
+      height: auto;
+      margin-top: -40px;
+      text-align: center;
+      padding: 0 32px;
       p {
         font-family: PoppinsBold;
         font-size: 18px;
         font-weight: 700;
         color: #da722c;
         margin-bottom: 8px;
+        text-align: center;
       }
       a {
         display: block;
@@ -71,33 +76,31 @@
         color: #fff;
         text-decoration: none;
         line-height: 32px;
-        margin-left: 24px;
       }
       span {
         width: 24px;
         height: 24px;
-        margin-left: 24px;
+        margin: 12px;
         img {
-          width: 24;
-          height: inherit;
+          width: 24px;
+          height: 24px;
           object-fit: cover;
           margin-top: 8px;
         }
       }
       form {
-        width: 96%;
+        width: 100%;
         height: 39px;
         background-color: #fff;
         border-radius: 8px;
         margin-top: 16px;
-        margin-left: 24px;
         position: relative;
         input:nth-of-type(1) {
           width: 100%;
           height: inherit;
           border-radius: 8px;
           border: unset;
-          padding: 4px 0 3px 27px;
+          padding: 0 32px;
           &:focus {
             outline: unset;
           }
@@ -109,8 +112,8 @@
           }
         }
         input:nth-of-type(2) {
-          width: 25%;
-          height: 30px;
+          width: 36%;
+          height: 39px;
           border-radius: 7px;
           background-color: #023027;
           border: unset;
@@ -119,8 +122,8 @@
           font-weight: 400;
           color: #fff;
           position: absolute;
-          right: 6px;
-          top: 5px;
+          right: 115px;
+          top: 54px;
         }
       }
     }
@@ -128,14 +131,15 @@
       width: 100%;
       height: 32px;
       position: absolute;
-      bottom: 0;
+      bottom: -40px;
       p {
         font-family: PoppinsRegular;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
-        line-height: 32px;
+        line-height: 28px;
         text-align: left;
         color: #fff;
+        text-align: center;
       }
     }
   }
