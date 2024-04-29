@@ -19,6 +19,7 @@
       font-weight: 900;
       line-height: 59px;
       color: #ffffff;
+      text-transform: uppercase;
     }
     // Right
     .right {
@@ -158,7 +159,7 @@
       width: 60%;
       height: 399px;
       display: inline-block;
-      background-image: url(../../Pictures/hero-image\ 1.jpg) !important;
+      background-image: url(../../Pictures/hero-image\ 1.jpg);
       background-size: contain;
       position: absolute;
       z-index: 10;
