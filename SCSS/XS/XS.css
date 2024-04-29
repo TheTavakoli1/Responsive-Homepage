@@ -14,7 +14,7 @@
 .wrapper .header .topheader .left {
   width: 10%;
   height: 48px;
-  font-family: Raleway-Bold;
+  font-family: RalewayBold;
   font-size: 40px;
   font-weight: 900;
   line-height: 59px;
@@ -29,7 +29,7 @@
   align-items: center;
 }
 .wrapper .header .topheader .right div {
-  font-family: Poppins-Bold;
+  font-family: PoppinsBold;
   font-size: 16px;
   font-weight: 700;
   color: #ffffff;
@@ -41,7 +41,7 @@
   background: #023047;
   border-radius: 24px;
   color: #fff;
-  font-family: Poppins-Bold;
+  font-family: PoppinsBold;
   font-size: 18px;
   font-weight: 700;
   border: unset;
@@ -54,7 +54,7 @@
 .wrapper .header .bottomheader .left h2 {
   width: 100%;
   height: 90px;
-  font-family: Raleway-Bold;
+  font-family: RalewayBold;
   font-size: 36px;
   font-weight: 900;
   color: #ffffff;
@@ -62,7 +62,7 @@
 .wrapper .header .bottomheader .left p {
   width: 100%;
   height: 128px;
-  font-family: Poppins-Regular;
+  font-family: PoppinsRegular;
   font-size: 16px;
   font-weight: 400;
   color: #ffffff;
@@ -80,7 +80,7 @@
   padding: 16px 32px 16px 32px;
   margin-top: 34px;
   border-radius: 24px;
-  font-family: Poppins-Bold;
+  font-family: PoppinsBold;
   font-size: 15px;
   font-weight: 700;
   color: #ffffff;
@@ -103,7 +103,7 @@
   text-align: center;
 }
 .wrapper .header .bottomheader .center .top h2 {
-  font-family: Poppins-Bold;
+  font-family: PoppinsBold;
   font-size: 30px;
   font-weight: 700;
   color: #023047;
@@ -112,7 +112,7 @@
   display: inline-block;
 }
 .wrapper .header .bottomheader .center .top p {
-  font-family: Poppins-Regular-;
+  font-family: PoppinsRegular-;
   font-size: 14px;
   font-weight: 400;
   color: #023047;
@@ -130,7 +130,7 @@
 .wrapper .header .bottomheader .center .bottom h2 {
   display: inline-block;
   margin-top: 8px;
-  font-family: Poppins-Bold;
+  font-family: PoppinsBold;
   font-size: 30px;
   font-weight: 700;
   color: #023047;
@@ -142,7 +142,7 @@
   margin-bottom: 18px;
 }
 .wrapper .header .bottomheader .center .bottom p {
-  font-family: Poppins-Regular;
+  font-family: PoppinsRegular;
   font-size: 14px;
   font-weight: 400;
   margin-top: -12px;
