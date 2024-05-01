@@ -8,7 +8,7 @@
     height: 645px;
     position: relative;
     .top_text {
-      width: 41%;
+      width: 46%;
       height: 72px;
       margin: 0 auto;
       text-align: center;
@@ -26,8 +26,9 @@
       margin-top: 56px;
       display: flex;
       justify-content: space-between;
+      
       .left {
-        width: 41%;
+        width: 46.3%;
         height: inherit;
         background-color: #ffffff;
         border-radius: 24px;
@@ -36,9 +37,10 @@
         flex-flow: row wrap;
         justify-content: center;
         img {
-          width: 462px;
+          width: 568px;
           height: 260px;
           object-fit: cover;
+          border-radius: 24px;
         }
         .text {
           width: 100%;
@@ -52,7 +54,7 @@
             color: #023047;
           }
           img {
-            width: 15.5%;
+            width: 72px;
             height: 24px;
             object-fit: cover;
             margin-top: 33px;
@@ -60,7 +62,7 @@
         }
       }
       .right {
-        width: 41%;
+        width: 46.3%;
         height: inherit;
         background-color: #ffffff;
         border-radius: 24px;
@@ -69,9 +71,10 @@
         flex-flow: row wrap;
         justify-content: center;
         img {
-          width: 100%;
+          width: 568px;
           height: 260px;
           object-fit: cover;
+          border-radius: 24px;
         }
         .text {
           width: 100%;
@@ -86,7 +89,7 @@
             line-height: 45px;
           }
           img {
-            width: 15.5%;
+            width: 72px;
             height: 24px;
             object-fit: cover;
             margin-top: 33px;
@@ -95,7 +98,7 @@
       }
     }
     button {
-      width: 13.2%;
+      width: 15%;
       height: 59px;
       background-color: #da722c;
       padding: 16px, 32px, 16px, 32px;      ;

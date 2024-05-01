@@ -10,7 +10,7 @@
     justify-content: space-between;
     position: relative;
     .left {
-      width: 14.4%;
+      width: 15.7%;
       height: 205px;
       p {
         font-family: PoppinsBold;
@@ -21,7 +21,7 @@
       }
       a {
         display: block;
-        font-family: PoppinsReqular;
+        font-family: PoppinsRegular;
         font-size: 16px;
         font-weight: 400;
         color: #fff;
@@ -31,7 +31,7 @@
       }
     }
     .center {
-      width: 9%;
+      width: 10%;
       height: 164px;
       p {
         font-family: PoppinsBold;
@@ -42,7 +42,7 @@
       }
       a {
         display: block;
-        font-family: PoppinsReqular;
+        font-family: PoppinsRegular;
         font-size: 16px;
         font-weight: 400;
         color: #fff;
@@ -52,7 +52,7 @@
       }
     }
     .right {
-      width: 43.7%;
+      width: 48%;
       height: 187px;
       p {
         font-family: PoppinsBold;
@@ -63,7 +63,7 @@
       }
       a {
         display: block;
-        font-family: PoppinsReqular;
+        font-family: PoppinsRegular;
         font-size: 16px;
         font-weight: 400;
         color: #fff;
@@ -77,14 +77,14 @@
         margin-left: 24px;
 
         img {
-          width: 24;
+          width: 24px;
           height: inherit;
           object-fit: cover;
           margin-top: 8px;
         }
       }
       form {
-        width: 96%;
+        width: 95%;
         height: 39px;
         background-color: #fff;
         border-radius: 8px;
@@ -108,7 +108,7 @@
           }
         }
         input:nth-of-type(2) {
-          width: 25%;
+          width: 26%;
           height: 30px;
           border-radius: 7px;
           background-color: #023027;
