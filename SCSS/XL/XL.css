@@ -54,7 +54,7 @@
   justify-content: space-between;
 }
 .bottomheader .left {
-  width: 33%;
+  width: 47%;
   height: inherit;
   display: flex;
   flex-flow: column wrap;
@@ -69,20 +69,20 @@
 }
 .bottomheader .left p {
   font-family: PoppinsRegular;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 32px;
   color: #fff;
   margin-top: 18px;
 }
 .bottomheader .left button {
-  width: 43%;
+  width: 44.3%;
   height: 59px;
   padding: 16px 32px;
   border-radius: 24px;
   color: #fff;
   font-family: PoppinsBold;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   background-color: #da722c;
   vertical-align: middle;
@@ -94,10 +94,9 @@
   gap: 8px;
 }
 .bottomheader .center {
-  width: 15.5%;
+  width: 22%;
   height: inherit;
   text-align: center;
-  margin-left: 24px;
 }
 .bottomheader .center .top {
   width: 100%;
@@ -180,7 +179,7 @@
   align-items: center;
 }
 .wrapper .parent_student .student .left {
-  width: 41.7%;
+  width: 49%;
   height: inherit;
   display: flex;
   position: relative;
@@ -213,7 +212,7 @@
   width: 85.5%;
   height: 54px;
   font-family: RalewayBold;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 900;
   color: #fff;
   line-height: 27px;
@@ -243,7 +242,7 @@
   margin-top: 8px;
 }
 .wrapper .parent_student .student .left .card1 .bottom img {
-  width: 120px;
+  width: 110px;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
@@ -270,7 +269,7 @@
   width: 85.5%;
   height: 54px;
   font-family: RalewayBold;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 900;
   color: #fff;
   line-height: 27px;
@@ -300,22 +299,24 @@
   margin-top: 8px;
 }
 .wrapper .parent_student .student .left .card2 .bottom img {
-  width: 120px;
+  width: 110px;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 32px;
 }
 .wrapper .parent_student .student .right {
-  width: 49.2%;
+  width: 45%;
   height: 377px;
+  margin-left: 82px;
 }
 .wrapper .parent_student .student .right h2 {
   font-family: RalewayBold;
-  font-size: 60px;
+  font-size: 47px;
   font-weight: 900;
   line-height: 72px;
   text-align: left;
+  color: #023047;
 }
 .wrapper .parent_student .student .right p {
   font-family: PoppinsRegular;
@@ -325,7 +326,7 @@
   margin-top: 16px;
 }
 .wrapper .parent_student .student .right button {
-  width: 30%;
+  width: 40%;
   height: 59px;
   background-color: #da722c;
   border-radius: 24px;
@@ -334,7 +335,7 @@
   border: unset;
   color: #fff;
   font-family: PoppinsBold;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 27px;
 }
@@ -351,7 +352,7 @@
   position: relative;
 }
 .parent_courses .courses .top_text {
-  width: 46%;
+  width: 54%;
   height: 72px;
   margin: 0 auto;
   text-align: center;
@@ -359,7 +360,7 @@
 }
 .parent_courses .courses .top_text h2 {
   font-family: RalewayBold;
-  font-size: 60px;
+  font-size: 54px;
   font-weight: 900;
   color: #ffffff;
 }
@@ -371,7 +372,7 @@
   justify-content: space-between;
 }
 .parent_courses .courses .course .left {
-  width: 46.3%;
+  width: 49%;
   height: inherit;
   background-color: #ffffff;
   border-radius: 24px;
@@ -381,7 +382,7 @@
   justify-content: center;
 }
 .parent_courses .courses .course .left img {
-  width: 568px;
+  width: 413px;
   height: 260px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -395,7 +396,7 @@
 }
 .parent_courses .courses .course .left .text p {
   font-family: RalewayBold;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 900;
   color: #023047;
 }
@@ -407,7 +408,7 @@
   margin-top: 33px;
 }
 .parent_courses .courses .course .right {
-  width: 46.3%;
+  width: 49%;
   height: inherit;
   background-color: #ffffff;
   border-radius: 24px;
@@ -417,7 +418,7 @@
   justify-content: center;
 }
 .parent_courses .courses .course .right img {
-  width: 568px;
+  width: 413px;
   height: 260px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -444,7 +445,7 @@
   margin-top: 33px;
 }
 .parent_courses .courses button {
-  width: 15%;
+  width: 18%;
   height: 59px;
   background-color: #da722c;
   padding: 16px, 32px, 16px, 32px;
@@ -469,7 +470,7 @@
   height: 262px;
 }
 .wrapper .parent_app .app .top {
-  width: 58%;
+  width: 70%;
   height: 72px;
   margin: 0 auto;
   text-align: center;
@@ -477,7 +478,7 @@
 }
 .wrapper .parent_app .app .top h2 {
   font-family: RalewayBold;
-  font-size: 60px;
+  font-size: 54px;
   font-weight: 900;
   color: #023047;
 }
@@ -490,7 +491,7 @@
 }
 .wrapper .parent_app .app .center p {
   font-family: PoppinsRegular;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   color: #023047;
 }
@@ -503,7 +504,7 @@
   gap: 30px;
 }
 .wrapper .parent_app .app .bottom .left {
-  width: 27.3%;
+  width: 32%;
   height: inherit;
   background-color: #000;
   display: flex;
@@ -519,13 +520,13 @@
 }
 .wrapper .parent_app .app .bottom .left p {
   font-family: PoppinsRegular;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   color: #fff;
   margin-right: 70px;
 }
 .wrapper .parent_app .app .bottom .right {
-  width: 27.3%;
+  width: 32%;
   height: inherit;
   background-color: #000;
   display: flex;
@@ -541,7 +542,7 @@
 }
 .wrapper .parent_app .app .bottom .right p {
   font-family: PoppinsReqular;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   color: #fff;
   margin-right: 40px;
@@ -566,7 +567,7 @@
 }
 .wrapper .parent_footer .footer .left p {
   font-family: PoppinsBold;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   color: #da722c;
   margin-bottom: 8px;
@@ -574,7 +575,7 @@
 .wrapper .parent_footer .footer .left a {
   display: block;
   font-family: PoppinsRegular;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #fff;
   text-decoration: none;
@@ -587,7 +588,7 @@
 }
 .wrapper .parent_footer .footer .center p {
   font-family: PoppinsBold;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   color: #da722c;
   margin-bottom: 8px;
@@ -595,7 +596,7 @@
 .wrapper .parent_footer .footer .center a {
   display: block;
   font-family: PoppinsRegular;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #fff;
   text-decoration: none;
@@ -608,7 +609,7 @@
 }
 .wrapper .parent_footer .footer .right p {
   font-family: PoppinsBold;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   color: #da722c;
   margin-bottom: 8px;
@@ -616,7 +617,7 @@
 .wrapper .parent_footer .footer .right a {
   display: block;
   font-family: PoppinsRegular;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #fff;
   text-decoration: none;
@@ -673,7 +674,7 @@
   background-color: #023027;
   border: unset;
   font-family: PoppinsRegular;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #fff;
   position: absolute;
@@ -688,9 +689,9 @@
 }
 .wrapper .parent_footer .footer .copyright p {
   font-family: PoppinsRegular;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 32px;
   text-align: left;
   color: #fff;
-}/*# sourceMappingURL=2XL.css.map */
+}/*# sourceMappingURL=XL.css.map */
