@@ -2,7 +2,7 @@
   width: 100%;
   height: 785px;
   background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
-  padding: 70px 115px 70px 116px;
+  padding: 70px 75px 70px 76px;
   .courses {
     width: 100%;
     height: 645px;
@@ -15,7 +15,7 @@
       line-height: 72px;
       h2 {
         font-family: RalewayBold;
-        font-size: 54px;
+        font-size: 44px;
         font-weight: 900;
         color: #ffffff;
       }
@@ -37,7 +37,7 @@
         flex-flow: row wrap;
         justify-content: center;
         img {
-          width: 413px;
+          width: 350px;
           height: 260px;
           object-fit: cover;
           border-radius: 24px;
@@ -49,13 +49,13 @@
           justify-content: space-between;
           p {
             font-family: RalewayBold;
-            font-size: 28px;
+            font-size: 24px;
             font-weight: 900;
             color: #023047;
           }
           img {
-            width: 72px;
-            height: 24px;
+            width: 52px;
+            height: 18px;
             object-fit: cover;
             margin-top: 33px;
           }
@@ -71,7 +71,7 @@
         flex-flow: row wrap;
         justify-content: center;
         img {
-          width: 413px;
+          width: 350px;
           height: 260px;
           object-fit: cover;
           border-radius: 24px;
@@ -83,14 +83,14 @@
           justify-content: space-between;
           p {
             font-family: RalewayBold;
-            font-size: 30px;
+            font-size: 26px;
             font-weight: 900;
             color: #023047;
             line-height: 45px;
           }
           img {
-            width: 72px;
-            height: 24px;
+            width: 52px;
+            height: 18px;
             object-fit: cover;
             margin-top: 33px;
           }
