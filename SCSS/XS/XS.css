@@ -485,7 +485,7 @@
 }
 .wrapper .parent_app .app .top h2 {
   font-family: RalewayBold;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 900;
   color: #023047;
 }
@@ -498,7 +498,7 @@
 }
 .wrapper .parent_app .app .center p {
   font-family: PoppinsRegular;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #023047;
 }
@@ -521,17 +521,17 @@
   gap: 14px;
 }
 .wrapper .parent_app .app .bottom .left img {
-  width: 60px;
+  width: 55px;
   height: 60px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .wrapper .parent_app .app .bottom .left p {
   font-family: PoppinsRegular;
   font-size: 24px;
   font-weight: 400;
   color: #fff;
-  margin-right: 70px;
+  margin-right: 40px;
 }
 .wrapper .parent_app .app .bottom .right {
   width: 87%;
@@ -543,17 +543,17 @@
   gap: 14px;
 }
 .wrapper .parent_app .app .bottom .right img {
-  width: 55.7px;
+  width: 50px;
   height: 60px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .wrapper .parent_app .app .bottom .right p {
   font-family: PoppinsReqular;
   font-size: 24px;
   font-weight: 400;
   color: #fff;
-  margin-right: 48px;
+  margin-right: 16px;
 }
 
 .wrapper .parent_footer {
