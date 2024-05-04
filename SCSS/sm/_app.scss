@@ -1,0 +1,85 @@
+.wrapper .parent_app {
+  width: 100%;
+  height: 521px;
+  padding: 100px 32px 100px 32px;
+  .app {
+    width: 100%;
+    height: 321px;
+    .top {
+      width: 100%;
+      height: 36px;
+      line-height: 36px;
+      text-align: center;
+      h2 {
+        font-family: RalewayBold;
+        font-size: 30px;
+        font-weight: 900;
+        color: #023047;
+      }
+    }
+    .center {
+      width: 100%;
+      height: 64px;
+      margin-top: 10px;
+      line-height: 32px;
+      text-align: center;
+      p {
+        font-family: PoppinsRegular;
+        font-size: 16px;
+        font-weight: 400;
+        color: #023047;
+      }
+    }
+    .bottom {
+      width: 100%;
+      height: auto;
+      margin-top: 27px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      gap: 30px;
+      .left {
+        width: 87%;
+        height: 84px;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        img{
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+        }
+        p {
+          font-family: PoppinsRegular;
+          font-size: 24px;
+          font-weight: 400;
+          color: #fff;
+          margin-right: 70px;
+        }
+      }
+      .right {
+        width: 87%;
+        height: 84px;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        img{
+            width: 55.7px;
+            height: 60px;
+            object-fit: cover;
+        }
+        p {
+            font-family: PoppinsReqular;
+            font-size: 24px;
+            font-weight: 400;
+            color: #fff;
+            margin-right: 48px;
+          }
+      }
+    }
+  }
+}
