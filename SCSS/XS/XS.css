@@ -81,7 +81,7 @@
   margin-top: 34px;
   border-radius: 24px;
   font-family: PoppinsBold;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
   color: #ffffff;
   border: unset;
@@ -92,6 +92,7 @@
   display: inline-block;
   text-align: center;
   position: relative;
+  z-index: 2;
 }
 .wrapper .header .bottomheader .center .top {
   width: 100%;
@@ -149,19 +150,17 @@
   color: #023047;
 }
 .wrapper .header .bottomheader .right {
-  width: 60%;
+  width: 86%;
   height: 399px;
   display: inline-block;
   background-image: url(../../Pictures/hero-image\ 1.jpg);
   background-size: contain;
   position: absolute;
-  z-index: 10;
   bottom: 0;
   right: 1px;
 }
 .wrapper .header .bottomheader .right img {
   display: none;
-  z-index: 0;
 }
 
 .wrapper .parent_student {
@@ -188,7 +187,7 @@
   height: inherit;
   background-color: #023047;
   border-radius: 24px;
-  margin-left: 87px;
+  margin-left: 60px;
 }
 .wrapper .parent_student .student .left .card1 {
   width: 100%;
@@ -211,7 +210,7 @@
   width: 85.5%;
   height: 54px;
   font-family: RalewayBold;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900;
   color: #fff;
   line-height: 27px;
@@ -229,7 +228,7 @@
 }
 .wrapper .parent_student .student .left .card1 .bottom .imformation h2 {
   font-family: RalewayBold;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 900;
   color: #023047;
 }
@@ -241,7 +240,7 @@
   margin-top: 8px;
 }
 .wrapper .parent_student .student .left .card1 .bottom img {
-  width: 100px;
+  width: 90px;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
@@ -267,7 +266,7 @@
   width: 85.5%;
   height: 54px;
   font-family: RalewayBold;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 900;
   color: #fff;
   line-height: 27px;
@@ -280,13 +279,13 @@
   align-items: center;
 }
 .wrapper .parent_student .student .left .card2 .bottom .imformation {
-  width: 32%;
+  width: 40%;
   height: 47px;
   margin-bottom: 25px;
 }
 .wrapper .parent_student .student .left .card2 .bottom .imformation h2 {
   font-family: RalewayBold;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 900;
   color: #023047;
 }
@@ -298,7 +297,7 @@
   margin-top: 8px;
 }
 .wrapper .parent_student .student .left .card2 .bottom img {
-  width: 100px;
+  width: 90px;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
@@ -313,7 +312,7 @@
   width: 100%;
   height: 36px;
   font-family: RalewayBold;
-  font-size: 31px;
+  font-size: 28px;
   font-weight: 900;
 }
 .wrapper .parent_student .student .right p {
@@ -321,12 +320,12 @@
   height: 160px;
   margin-top: 20px;
   font-family: PoppinsRegular;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 32px;
 }
 .wrapper .parent_student .student .right button {
-  width: 37%;
+  width: 42%;
   height: 48px;
   background-color: #da722c;
   margin-top: 30px;
@@ -335,7 +334,7 @@
   border: unset;
   color: #fff;
   font-family: PoppinsBold;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 16px;
   position: absolute;
